@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+    font-size: 12px;
+}
+li {
+    list-style: none;
+}
+.font_13px {
+    font-size: 13px;
+}
+.font_14px {
+    font-size: 14px;
+}
+.font_15px {
+    font-size: 15px;
+}
+.font_16px {
+    font-size: 16px;
+}
+.font_17px {
+    font-size: 17px;
+}
+.color_gray {
+    color: #999;
+}
+.top_nav {
+    margin: 0 auto;
+    width: 1520px;
+    height: 30px;
+    background-color: #545652;
+    /*z-index: 2;*/
+}
+.top_nav>ul {
+    width: 1519px;
+    height: 30px;
+    /*border: 1px solid red;*/
+    position: relative;
+}
+.top_nav>ul li {
+    list-style: none;
+    float: left;
+    line-height: 30px;
+
+    margin: 0 12px;
+}
+.top_nav>ul>li a {
+    text-decoration: none;
+    color: #d5d5d5;
+}
+.top_nav>ul>li a:hover {
+    color: #fff;
+}
+.top_nav>ul>li:nth-last-child(2) a {
+    position: absolute;
+    right: 110px;
+}
+.top_nav>ul>li:last-child a {
+    position: absolute;
+    right: 30px;
+}
+
+.tongcheng_logo {
+    width: 1520px;
+    height: 48px;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+    background-color: #f6f6f1;
+    padding-top: 20px;
+    margin-bottom: 42px;
+
+}
+.tongcheng_logo ul {
+    width: 456px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*border: 1px solid red;*/
+    margin-left: 244px;
+    height: 50px;
+    vertical-align: middle;
+}
+.tongcheng_logo_ul li {
+    float: left;
+    /*border: 1px solid red;*/
+}
+.xiamen {
+    padding: 5px 15px 6px;
+    background-color: #e0deda;
+    width: 63.55px;
+    height: 24.6px;
+    font-size: 14px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: black;
+}
+.tongcheng_logo_ul li:nth-last-child(-1n+3) a {
+    color: #643;
+    font-size: 15px;
+}
+.tongcheng_logo_ul li:nth-last-child(-1n+3) a:hover {
+    color: #fff;
+    background-color: #643;
+}
+.input_btn {
+    position: relative;
+    top: -50px;
+    right: 250px;
+    float: right;
+    display: flex;
+    align-items: center;
+
+}
+.tongcheng_logo input[type=text] {
+    width: 200px;
+    height: 30px;
+    padding: 0 5px;
+    border-radius: 3px;
+    border: none;
+}
+.srch {
+    width: 37px;
+    height: 30px;
+    /*border: 1px solid red;*/
+    display: inline-block;
+    background: url("../img/reading/srch.png") no-repeat 0 93%;
+    border-radius: 3px;
+    transform: translate(0 -3px);
+    /*z-index: 0;*/
+}
+.hot_active {
+    width: 678px;
+    height: 18px;
+    margin-left: 244px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+.left_right_btn {
+    width: 83px;
+    height: 22px;
+    /*border: 1px solid;*/
+    float: right;
+}
+.left_right_btn_a {
+    width: 43px;
+    height: 21px;
+    background: url("../img/tongcheng/slide_control.png"), url("../img/tongcheng/slide_control.png");
+    /*border: 1px solid;*/
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.hot_active_content {
+    width: 678px;
+    position: relative;
+    top: 22px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.hot_active_info:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+.hot_active_info {
+    width: 115px;
+    /*height: 191px;*/
+    height: auto;
+    /*border: 1px solid;*/
+}
+.img_info {
+    width: 115px;
+    height: 161px;
+}
+
+.a_style_blue {
+    color: #37a;
+}
+.a_style_blue:hover {
+    background-color: #37a;
+    color: #fff;
+}
+.classify {
+    width: 677px;
+    height: 104px;
+    /*border: 1px solid;*/
+    margin-left: 244px;
+    background-color: #F6F5F2;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.music {
+    width: 131px;
+    height: 100px;
+}
+.classify_a_title:hover {
+    background-color: #eee;
+}
+.music_ul {
+    width: 117px;
+    height: 49px;
+    /*border: 1px solid;*/
+}
+.music_ul li {
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.opera {
+    width: 677px;
+    height: 442px;
+    /*border: 1px solid;*/
+    margin-left: 244px;
+    margin-top: 39px;
+}
+.opera_nav {
+    width: 666px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+.opera_nav span {
+    float: left;
+}
+.opera_nav ul {
+    margin-left: 51px;
+    display: flex;
+    justify-content: space-between;
+    width: 380px;
+    float: left;
+}
+.opera_nav li a{
+    font-size: 13px;
+    color: #37a;
+    padding: 0 12px;
+    border-radius: 3px;
+}
+.opera_nav li a:hover {
+    background-color: #6cc1d6;
+    color: #fff;
+}
+.more {
+    margin-left: 170px;
+}
+.opera_content {
+    width: 656px;
+    height: 394px;
+    /*border: 1px solid;*/
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.opera_name {
+    width: 295px;
+    height: 100px;
+    /*border: 1px solid;*/
+    position: relative;
+}
+
+.opera_name img {
+    width: 75px;
+    height: 96px;
+    /*border: 1px solid;*/
+}
+.img_right {
+    display: inline-block;
+    width: 200px;
+    height: 98px;
+    margin-left: 10px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    top: 0;
+}
+.opera_name_time {
+    line-height: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    color: gray;
+}
+.tongcheng_right {
+    width: 306px;
+    height: 700px;
+    /*border: 1px solid;*/
+    display: inline-block;
+}
+.tongcheng_left {
+    display: inline-block;
+    margin-right: 62px;
+}
+.outer {
+    display: flex;
+    align-items: flex-start;
+}
+.tongcheng_right_btn {
+    width: 117px;
+    height: 28px;
+    border-radius: 3px;
+    background-color: #A88360;
+    display: inline-block;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+.tongcheng_right_nav {
+    width: 300px;
+    height: 19px;
+    /*border: 1px solid;*/
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    margin-bottom: 20px;
+}
+.tongcheng_right_nav span {
+    font-size: 16px;
+}
+.right_more {
+    float: right;
+    color: #37a;
+    transform: translate(0, 5px);
+}
+.right_more:hover {
+    background-color: #37a;
+    color: white;
+}
+.tongcheng_right_content {
+    width: 300px;
+    height: 76px;
+    /*border: 1px solid;*/
+    margin-bottom: 32px;
+}
+.damai_web {
+    width: 234px;
+    height: 75px;
+    /*border: 1px solid;*/
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+}
+.damai_web span:nth-child(2){
+    display: inline-block;
+    margin: 10px 0 15px 0;
+}
+.damai_web a {
+    display: inline-block;
+}
+.xiju {
+    margin-top: 5px ;
+    color: #808080;
+}
+.xiju:hover {
+    color: #FFFFFF;
+    background-color: #808080;
+}
+.activing {
+    display: inline-block;
+    margin-top: 5px;
+}
+.more_discover_ul {
+    margin-top: 10px;
+}
+.more_discover_ul li {
+    float: left;
+    /*border: 1px solid;*/
+    padding: 10px 15px;
+    border: 1px solid rgba(0, 0, 0, .1);
+
+}
+.more_discover_ul li:hover {
+    background-color: #fcfcfc;
+}
+.more_discover_ul a {
+    padding: 2px;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+    color: #37a;
+}
+.contact_us_title {
+    /*border: 1px solid red;*/
+    margin-top: 100px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    margin-bottom: 15px;
+}
+.douban_xiaozhan {
+    width: 65px;
+    height: 65.8px;
+    text-align: center;
+    float: left;
+}
+.douban_xiaozhan img {
+    width: 40px;
+    height: 40px;
+}
+
+.rss {
+    padding-top: 80px;
+}
+.rss img {
+    transform: translate(0, 2px);
+}
+.rss li {
+    float: left;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.bottom_mu {
+    width: 1040px;
+    height: 34px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-top: 1px dashed rgba(0, 0, 0, 0.4);
+}
+.bottom_mu li {
+    float: left;
+    padding: 5px;
+
+}
+.bottom_mu li:after {
+    display: block;
+    clear: both;
+}
+.bottom_mu li:first-child {
+    margin-right: 230px;
+    /*border: 1px solid red;*/
+}
+.bottom_mu li>a {
+    color: #3377aa;
+}
+.bottom_mu li>a:hover {
+    background-color: #3377aa;
+    color: #fff;
+}

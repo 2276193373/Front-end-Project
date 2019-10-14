@@ -1,0 +1,229 @@
+.top {
+    height: 100px;
+}
+.nav {
+    width:1519px;
+    height: 100px;
+    background-color: rgba(250, 250, 250, 0.93);
+    position: fixed;
+}
+.nav_logo {
+    width: 100px;
+    margin: 25px 60px 0 256px;
+}
+.song {
+    display: inline-block;
+    vertical-align: top;
+    margin: 25px;
+    width: 336px;
+}
+.song_name {
+    text-decoration: none;
+    color: #030303;
+    font-size: 14px;
+}
+.song_name:hover {
+    text-decoration: underline;
+}
+.line {
+    margin: 5px 0;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+.jingxuan {
+    color: #2f9842;
+    font-size: 13px;
+}
+.play_btn {
+    margin-right: 10px;
+}
+.login {
+    color: #8f8e94;
+    font-size: 12px;
+}
+.login_ul {
+    display: inline-block;
+    margin-left: 300px;
+}
+.login_ul li {
+    float: left;
+    list-style: none;
+    
+}
+.angle_btn {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #2f9842;
+}
+.classify {
+    width: 460px;
+    margin: 0 auto;
+    /*border: 1px solid;*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.classify li {
+    list-style: none;
+    float: left;
+}
+.classify li a {
+    color: #8f8e94;
+}
+.personal_fm {
+    margin-left: 256px;
+    width: 512px;
+    height: 62px;
+    display: inline-block;
+}
+.personal_fm img {
+    width: 50px;
+    opacity: 0.5;
+}
+.personal_fm_div {
+    vertical-align: top;
+    width: 343px;
+    display: inline-block;
+    margin-left: 10px;
+    color: #8f8e94;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.boot_btn {
+    display: inline-block;
+    width: 80px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #2f9842;
+    border: 1px solid #2f9842;
+    border-radius: 12px;
+    float: right;
+}
+.artist {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    background: url("../img/fm/31387.jpg") no-repeat;
+    background-size: 108px;
+}
+.inner_artist {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    background-color: #000;
+    opacity: 0;
+}
+.inner_artist:hover {
+    opacity: .5;
+
+}
+.inner_artist img {
+    width: 12px;
+}
+.inner_artist:hover img {
+    opacity: 1;
+}
+.title {
+    color: #9b9b9b;
+    font-size: 14px;
+    margin: 30px 0 0px 256px;
+}
+.outer_artist {
+    width: 123px;
+    height: 179px;
+    text-align: center;
+    /*border: 1px solid;*/
+}
+.outer {
+    width: 1013px;
+    height: 178px;
+    padding-bottom: 42px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 30px 256px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+.caoge {
+    display: block;
+    margin: 10px 0 7px 0;
+    color: #4a4a4a;
+    font-size: 14px;
+}
+.caoge:hover {
+    text-decoration: underline;
+}
+.similar {
+    color: #acacac;
+    display: inline-block;
+    width: 130px;
+    font-size: 12px;
+}
+.load_more {
+    width: 112px;
+    height: 30px;
+    text-align: center;
+    color: #9b9b9b;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 3px;
+    margin: 0 auto;
+    display: block;
+}
+.load_more:hover {
+    color: #4a4a4a;
+}
+.load_more span {
+    line-height: 30px;
+}
+.p_title {
+    color: #9B9B9B;
+    width: 1024px;
+    font-size: 14px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+.mood {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 22px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+.mood li {
+    list-style: none;
+}
+.mood li a:first-child {
+    color: #030303;
+    font-size: 14px;
+}
+.mood li a:last-child {
+    color: #acacac;
+    font-size: 10px;
+}
+.p1 {
+    color: #9b9b9b;
+    width: 700px;
+    margin: 0 auto;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+.p2 {
+    width: 450px;
+    margin: 0 auto;
+    color: #62646c;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+.bottom a {
+    font-size: 12px;
+    color: #9B9B9B;
+}
+.bottom a:hover {
+    text-decoration: underline;
+}

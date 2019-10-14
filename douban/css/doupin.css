@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+}
+
+.top_nav {
+    margin: 0 auto;
+    width: 1520px;
+    height: 30px;
+    background-color: #545652;
+    /*z-index: 2;*/
+}
+.top_nav>ul {
+    width: 1519px;
+    height: 30px;
+    /*border: 1px solid red;*/
+    position: relative;
+}
+.top_nav>ul li {
+    list-style: none;
+    float: left;
+    line-height: 30px;
+
+    margin: 0 12px;
+}
+.top_nav>ul>li a {
+    text-decoration: none;
+    color: #d5d5d5;
+}
+.top_nav>ul>li a:hover {
+    color: #fff;
+}
+.top_nav>ul>li:nth-last-child(2) a {
+    position: absolute;
+    right: 110px;
+}
+.top_nav>ul>li:last-child a {
+    position: absolute;
+    right: 30px;
+}
+li {
+    list-style: none;
+}
+.font_14px {
+    font-size: 14px;
+}
+.font_15px {
+    font-size: 15px;
+}
+.font_17px {
+    font-size: 17px;
+}
+.color_gray {
+    color: #999;
+}
+body, td, th {
+    font-size: 12px;
+}
+.a_style_m {
+    font-size: 13px;
+    color: #37a;
+}
+.a_style_m:hover {
+    background-color: #37A;
+    color: #fff;
+}
+.a_style_green {
+    color: #138a64;
+}
+.a_style_green:hover {
+    background-color: #138a64;
+    color: #fff;
+}
+.touxiang {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: url("../img/doupin/user_large.jpg") no-repeat center;
+    background-size: 24px;
+    display: inline-block;
+    float: right;
+}
+.doupin_outer {
+    width: 1101px;
+    height: 3501px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.doupin_content {
+    width: 305px;
+    height: 396px;
+}
+.doupin_content img {
+    width: 300px;
+    height: 300px;
+}
+.doupin_content div:first-child {
+    font-size: 18px;
+}
+.sec_div {
+    margin: 7px 0;
+}
+.a_img {
+    transition: opacity .3s;
+}
+.a_img:hover {
+    opacity: 0.7;
+}
+.official_group {
+    width: 1105px;
+    /*border: 1px solid;*/
+    margin: 0 auto;
+}
+.official_group span {
+    font-size: 24px;
+    color: #44883e;
+}
+.official_group .more {
+    float: right;
+    line-height: 27px;
+    color: #ababac;
+    font-size: 15px;
+}
+.shangxin {
+    width: 1105px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+.dialog {
+    width: 36px;
+    height: 26px;
+    background: url("../img/doupin/dialog.png") no-repeat;
+    background-size: 32px;
+    display: inline-block;
+    margin-top: 20px;
+    /*border: 1px solid;*/
+}
+.extra {
+    transform: translate(-20px, 50%);
+}
+
+.a_text {
+    font-size: 16px;
+    color: #3e3a39;
+}
+.hot_active {
+    font-size: 24px;
+    color: #44883e;
+    margin: 30px 0;
+}
+.hot_active_content {
+    width: 532px;
+    height: 201px;
+    background-color: #f3f3f2;
+    border-radius: 3px;
+    /*border: 1px solid;*/
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.hot_active_content img {
+    width: 200px;
+}
+.img_right_div {
+    width: 169px;
+    height: 71px;
+    margin-left: 40px;
+    /*border: 1px solid;*/
+    display: inline-block;
+
+}
+.text_line_01 {
+    font-size: 16px;
+    color: #44883e;
+}
+.text_line_02 {
+    color: #ababac;
+    margin: 5px 0;
+}
+.a_btn {
+    width: 90px;
+    height: 24px;
+    background-color: #44883e;
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 2px;
+}
+.hot_active_content_outer {
+    width: 1100px;
+    height: 443px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.bottom {
+    width: 1519px;
+    height: 173px;
+    background-color: #F3F2F2;
+    /*border: 1px solid;*/
+}
+.bottom img {
+    margin-top: 56px;
+    width: 114px;
+    margin-bottom: 20px;
+}
+.gray_font {
+    color: #ababac;
+}
+
+.bottom_div a:hover{
+    text-decoration: underline;
+}
+.bottom_ul {
+    position: relative;
+    top: -75px;
+}
+.bottom_ul li {
+    float: right;
+    margin: 0 10px;
+}
+.bottom_ul li a {
+    font-size: 16px;
+    color: #ababac;
+}
+.inner_bottom {
+    width: 1100px;
+    /*border: 1px solid;*/
+    margin-left: 210px;
+}
+.img_bottom_weixin {
+    float: right;
+    position: relative;
+    top: -100px;
+    right: -240px;
+}
+.banner:hover {
+    opacity: 0.9;
+}
+.banner_div {
+    width: 41px;
+    height: 69px;
+    background: url("../img/doupin/icon_slides.png") no-repeat 34% 0%;
+    /*background-size: 41px;*/
+    position: relative;
+    top: -260px;
+    left: 1478px;
+}
+.banner_div:hover {
+    opacity: 0.5;
+}

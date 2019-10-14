@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/favicon.ico" sizes="128x128">
+    <title>Visual Studio Code - Code Editing. Redefined</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-bgcolor navbar-fixed-top navbar-box-shadow">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="" class="navbar-brand data-navbar-brand">
+                <img src="img/ia_100000038.png" alt="" class="logo">
+                <span class="logo-words">Visual Studio Code</span>
+            </a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="mynav">
+            <ul class="nav navbar-nav list-unstyled navbar-left data-navbar">
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">Updates</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">API</a></li>
+                <li><a href="#">Extensions</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            <ul class="nav navbar-nav list-unstyled navbar-right">
+                <li class="search">
+                    <button class="btn btn-success data-btn">
+                        <img src="img/ia_100000034.svg" alt="" width="16px" height="16px">
+                        Download
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="blank">
+                <div></div>
+                <span><a href="javascript:;">Version 1.36</a> is now available! Read about the new features and fixes from June.</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="second-bg">
+    <div class="container data-second-block">
+        <div class="row">
+            <div class="col-sm-4 data-margin-30">
+                <h1 class="data-title">
+                    Code editing.
+                    <strong>Redefined.</strong>
+                </h1>
+                <p>Free. Built on open source. Runs everywhere.</p>
+                <div class="download-btn">
+
+                    <div class="dropdown dropdown-wrap">
+                        <button class="btn btn-success data-btn-windows">
+                            <span>Download for Windows</span>
+                            <p>Stable Build</p>
+                        </button>
+                        <button id="download-dropdown" data-toggle="dropdown" class="btn btn-success download-dropdown">
+                            <img src="img/ia_100000039.svg" alt="">
+                        </button>
+                        <!--下拉列表-->
+                        <table class="dropdown-menu dropdown-menu-tab">
+                            <tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>Stable</td>
+                                <td>
+                                    Insiders
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>macOS</td>
+                                <td>Package</td>
+                                <td>
+                                    <a href="#"><img src="img/ia_100000022.svg" alt="22"></a>
+                                </td>
+                                <td>
+                                    <a href="#"><img src="img/ia_100000022.svg" alt="22"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Windows x64</td>
+                                <td>User Installer</td>
+                                <td>
+                                    <a href="#"><img src="img/ia_100000022.svg" alt="22"></a>
+                                </td>
+                                <td>
+                                    <a href="#"><img src="img/ia_100000022.svg" alt="22"></a>
+                                </td>
+                            </tr>
+                            <tr class="tr-linux">
+                                <td>Linux x64</td>
+                                <td>.deb</td>
+                                <td>
+                                    <a href="#"><img src="img/ia_100000022.svg" alt="22"></a>
+                                </td>
+                                <td>
+                                    <a href="#"><img src="img/ia_100000022.svg" alt="22"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>.rpm</td>
+                                <td><a href="#"><img src="img/ia_100000022.svg" alt="22"></a></td>
+                                <td><a href="#"><img src="img/ia_100000022.svg" alt="22"></a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+
+                    <!--外面的大div-->
+                    <div class="download-subtext">
+                        <!-- 对话框的小三角-->
+                        <div></div>
+                        <a href="javascript:;">Other platforms</a>
+                        <span>and</span>
+                        <a href="javascript:;">Insiders Edition</a>
+
+                        <div class="download-btn-terms">
+                            <span>By using VS Code, you agree to its </span>
+                            <br>
+                            <a href="javascript:;">license and privacy statement.</a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="col-sm-8 data-margin-30">
+                <img src="img/ia_100000040.png" alt="" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="third-bg">
+    <div class="container">
+        <div class="row">
+            <button id="asdf" class="col-sm-3 col-xs-6 btn btn-default data-third-img">
+                <div></div>
+                <p>IntelliSense</p></button>
+            <button class="col-sm-3 col-xs-6 btn btn-default data-third-img">
+                <div></div>
+                <p>Debugging</p></button>
+            <button class="col-sm-3 col-xs-6 btn btn-default data-third-img">
+                <div></div>
+                <p>Built-in Git</p></button>
+            <button class="col-sm-3 col-xs-6 btn btn-default data-third-img">
+                <div></div>
+                <p>Extensions</p></button>
+        </div>
+    </div>
+</div>
+<div class="forth-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="myCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="media">
+                                            <div class="media-left media-middle">
+                                                <img src="img/ia_100000047.jpg" alt="2" class="media-object" width="50">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Darren @MrDarrenV</h4>
+                                                <p>Just as I thought @code couldn't get better,
+                                                    out comes its Remote Development plugins in
+                                                    the Stable version that let you remote into
+                                                    containers as a dev environment! 😍
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="media">
+                                            <div class="media-left media-middle">
+                                                <img src="img/ia_100000045.jpg" alt="2" class="media-object"
+                                                     width="250">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Cassidy Williams @cassidoo</h4>
+                                                <p>
+                                                    I was a vim fan, but then discovered VS Code's Vim plugin,
+                                                    which lets me add in my vim keybindings. I can maintain my
+                                                    coding style without having to compromise on speed.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="media">
+                                            <div class="media-left media-middle">
+                                                <img src="img/ia_100000046.jpg" alt="2" class="media-object"
+                                                     width="250">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Gift Egwuenu @lauragift21</h4>
+                                                <p>
+                                                    I love @code, the built-in markdown
+                                                    previewer is awesome and the plugin system
+                                                    allows me to use GitLens, which makes my workflow
+                                                    so much easier.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="media">
+                                            <div class="media-left media-middle">
+                                                <img src="img/ia_100000045.jpg" alt="2" class="media-object">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Una Kravets @Una</h4>
+                                                <p>VS @code does so many things right.
+                                                    I’m constantly impressed by the UX, and
+                                                    customizing workspace / user preferences is no exception.
+                                                    🙌🏼💯 It just keeps getting better ❤️
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="media">
+                                            <div class="media-left media-middle">
+                                                <img src="img/ia_100000045.jpg" alt="2" class="media-object">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Jonathan Dunlap @jadbox</h4>
+                                                <p>Awesome - VS Code will have deep remote development: you
+                                                    can connect to a container running a different OS and be
+                                                    able to use any VS Code plugins/linting/debugging for that
+                                                    environment. 🔥🔥🔥
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="media">
+                                            <div class="media-left media-middle">
+                                                <img src="img/ia_100000045.jpg" alt="2" class="media-object">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Pavithra Kodmad @PKodmad</h4>
+                                                <p>
+                                                    VS Code is my most used and favorite
+                                                    editor. I love being able to customize
+                                                    the editor - changing the layout, the icons,
+                                                    fonts and color scheme is so easy!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a href="#myCarousel" data-slide="prev" class="carousel-control left clear-bc"><span
+                            class="glyphicon glyphicon-chevron-left"></span></a>
+                    <a href="#myCarousel" data-slide="next" class="carousel-control right clear-bc"><span
+                            class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="IntelliSense-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/ia_100000024.svg" alt="24">
+            </div>
+            <div class="col-sm-7 col-sm-push-1 col-sm-12 data-font">
+                <p>Meet IntelliSense.</p>
+                <p>
+                    Go beyond syntax highlighting and autocomplete with
+                    IntelliSense,
+                    which provides smart
+                    completions based on variable types,
+                    function definitions, and imported modules.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="debugging-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7 data-font">
+                <p>Print statement debugging is a thing of the past.</p>
+                <p>Debug code right from the editor. Launch or attach to your running apps and
+                    debug with break points, call stacks, and an interactive console.
+                </p>
+            </div>
+            <div class="col-sm-4 col-sm-push-1">
+                <img src="img/ia_100000025.svg" alt="25">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="git-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/ia_100000026.svg" alt="git_26">
+            </div>
+            <div class="col-sm-7 col-sm-push-1 data-font">
+                <p>Git commands built-in.</p>
+                <p>Working with Git and other SCM providers has never
+                    been easier. Review diffs, stage files,
+                    and make commits right from the editor.
+                    Push and pull from any hosted SCM service.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="Extensible-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7 data-font">
+                <p>Extensible and customizable.</p>
+                <p>Want even more features? Install extensions to add new languages,
+                    themes, debuggers, and to connect to additional services.
+                    Extensions run in separate
+                    processes, ensuring they won't slow down your editor.
+                    <a href="javascript:;">Learn more about extensions.</a>
+                </p>
+            </div>
+            <div class="col-sm-4 col-sm-push-1">
+                <img src="img/ia_100000027.png" alt="pictures_27" width="100%" class="scale_img">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="vscode-for-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 vscode-for">
+                <span>VS Code for</span>
+            </div>
+            <div class="col-sm-6 vscode-for">
+                <div class="mask"></div>
+                <ul class="languages-list">
+                    <li>SQL</li>
+                    <li>Groovy</li>
+                    <li>C#</li>
+                    <li>PHP</li>
+                    <li>Perl</li>
+                    <li>JavaScript</li>
+                    <li>Swift</li>
+                    <li>Ruby</li>
+                    <li>Clojure</li>
+                    <li>TypeScript</li>
+                    <li>Go</li>
+                    <li>HandleBars</li>
+                    <li>Dockerfile</li>
+                    <li>Sass</li>
+                    <li>Markdown</li>
+                    <li>Less</li>
+                    <li>C++</li>
+                    <li>Makefile</li>
+                    <li>Jade</li>
+                    <li>Razor</li>
+                    <li>Objective-C</li>
+                    <li>Ini</li>
+                    <li>JSON</li>
+                    <li>Coffee Script</li>
+                    <li>Java</li>
+                    <li>PowerShell</li>
+                    <li>F#</li>
+                    <li>CSS</li>
+                    <li>R</li>
+                    <li>XML</li>
+                    <li>Batch</li>
+                    <li>Python</li>
+                    <li>Visual Basic</li>
+                    <li>HTML</li>
+                    <li>Rust</li>
+                    <li>Lua</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 data-get-start">
+                <a href="javascript:;" class="btn btn-primary ">Get Start Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="versions-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-3 downloads-btn-wrap">
+                <img src="img/ia_100000051.png" alt=""><br>
+                <button class="btn btn-primary btn-download">
+                    <img src="img/ia_100000034.svg" alt="">
+                    Windows
+                    <br>
+                    <small>Windows 7,8,10</small>
+                </button>
+                <table class="win-downloads">
+                    <tbody>
+                    <tr>
+                        <td><strong>System Installer</strong></td>
+                        <td><a href="javascript:;">64bit</a></td>
+                        <td><a href="javascript:;">32bit</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>User Installer</strong></td>
+                        <td><a href="javascript:;">64bit</a></td>
+                        <td><a href="javascript:;">32bit</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>.zip</strong></td>
+                        <td><a href="javascript:;">64bit</a></td>
+                        <td><a href="javascript:;">32bit</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-sm-4 downloads-btn-wrap">
+                <img src="img/ia_100000052.png" alt="">
+                <br>
+                <button class="btn btn-primary btn-download btn-download-linux">
+                    <img src="img/ia_100000034.svg" alt="">
+                    .deb
+                    <br>
+                    <small>Debian, Ubuntu</small>
+                </button>
+                <button class="btn btn-primary btn-download btn-download-linux">
+                    <img src="img/ia_100000034.svg" alt="">
+                    .rpm
+                    <br>
+                    <small>Red Hat,Fedora,SUSE</small>
+                </button>
+                <table class="win-downloads linux-downloads">
+                    <tbody>
+                    <tr>
+                        <td><strong>.deb</strong></td>
+                        <td><a href="javascript:;">64bit</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>.rpm</strong></td>
+                        <td><a href="javascript:;">64bit</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>.tar.gz</strong></td>
+                        <td><a href="javascript:;">64bit</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <p><a href="javascript:;"><strong>Snap store</strong></a></p>
+            </div>
+            <div class="col-sm-3 downloads-btn-wrap">
+                <img src="img/ia_100000053.svg" alt=""><br>
+                <button class="btn btn-primary btn-download">
+                    <img src="img/ia_100000034.svg" alt="">
+                    Mac
+                    <br>
+                    <small>macOS 10.10+</small>
+                </button>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="row want-new-features">
+            <div class="col-sm-12 text-center">
+                <span>Want new features sooner?</span>
+                <p></p>
+                <span>Get the Insiders build instead.</span>
+            </div>
+        </div>
+        <div class="row terms">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 text-center">
+                <span>LICENSE AND PRIVACY TERMS</span>
+                <br>
+                <span>By downloading and using Visual Studio Code, you agree to the <a
+                        href="javascript:;">license terms</a> and <a href="javascript:;">privacy statement</a>. VS Code </span>
+                <br>
+                <span>automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not </span>
+                <br>
+                <span>to have this data sent please go see <a href="javascript:;">How to Disable Crash Reporting</a>  to learn how to disable it.</span>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+</div>
+<footer>
+    <nav class="nav navbar-default footer-bg">
+        <div class="container">
+            <div class="navbar-header float-right">
+                <a href="" class="navbar-brand">
+                    <img src="img/ia_100000036.png" alt="" class="footer-logo">
+                    <br>
+                    <span class="footer-copyright">© 2019 Microsoft</span>
+                </a>
+            </div>
+            <ul class="nav navbar-nav list-unstyled navbar-left footer-navbar-right">
+                <li><a href="#">Hello from Seattle.</a></li>
+                <li><a href="#">Follow @code</a></li>
+                <li class="github-icon">
+                    <span>
+                        <img src="img/github.svg" alt="" width="15px"> star
+                    </span>
+                </li>
+                <li><a href="#">License</a></li>
+            </ul>
+            <ul class="nav navbar-nav list-unstyled navbar-right footer-navbar-right">
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">License</a></li>
+            </ul>
+        </div>
+    </nav>
+</footer>
+<!--<script src="js/bootstrap.min.js"></script>-->
+<!--<script src="../test/jquery.min.js"></script>-->
+
+<!--注意：jq要放在bootstrap上面-->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
